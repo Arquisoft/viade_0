@@ -17,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Iván. Desarrollado por mí mismo!!!!
+          Pepe
         </a>
       </header>
     </div>
