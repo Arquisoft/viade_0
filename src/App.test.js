@@ -8,6 +8,6 @@ test('add 2+2', () => {
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/Pepe/i);
+  const linkElement = getByText(/Lucía/i);
   expect(linkElement).toBeInTheDocument();
 }); 
