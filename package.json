@@ -17,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --coverage",
+    "test:e2e": "jest -c e2e/jest.config.js",
     "docs": "shx rm -rf build/docs && asciidoctor -D build/docs -a imagesdir=./images -r asciidoctor-diagram src/docs/index.adoc && shx cp -R src/docs/images build/docs",
     "eject": "react-scripts eject"
   },
@@ -36,6 +37,9 @@
     ]
   },
   "devDependencies": {
+    "jest-cucumber": "^2.0.11",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^2.1.1",
     "shx": "^0.3.2"
   }
 }

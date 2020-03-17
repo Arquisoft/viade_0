@@ -8,19 +8,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Welcome name="Mario"/>
+        <Welcome name="ASW students"/>
         <EmailForm />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
+        <a className="App-link"
+          href="https://github.com/arquisoft/viade_0"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Pepe
-        </a>
+        >Source code</a>
       </header>
     </div>
   );
