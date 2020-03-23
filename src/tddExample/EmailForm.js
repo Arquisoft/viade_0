@@ -31,7 +31,7 @@ const handleSubmit = (e) => {
     e.preventDefault()
     //Add the user to the database
     if (registerUser(state.email))
-        setState({welcomeMsg:'User '+state.email+' has been registered!'})
+        setState({welcomeMsg:'Usuario '+state.email+' has been registered!'})
     else
         setState({welcomeMsg:'ERROR: User '+state.email+' is already registered!'})
 }

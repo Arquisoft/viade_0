@@ -1,4 +1,4 @@
-const {defineFeature, loadFeature}=require('jest-cucumber');
+const {defineFeature, loadFeature} = require('jest-cucumber');
 const feature = loadFeature('./e2e/features/register-form.feature');
 
 defineFeature(feature, test => {
@@ -24,7 +24,7 @@ defineFeature(feature, test => {
     });
 
     then('A welcome message should be shown in the screen', async () => {
-      await expect(page).toMatchElement('span', { text: 'User '+email+' has been registered!' })
+      await expect(page).toMatchElement('span', { text: 'Usuario '+email+' has been registered!' })
     });
   });
 
